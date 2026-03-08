@@ -1,9 +1,13 @@
 package com.qaflow.desktopdemo;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.*;
+import javafx.stage.Stage;
 
 
 public class HelloController {
@@ -38,5 +42,10 @@ public class HelloController {
         hideButton.setDisable(true);
         currentText.setText("label is hidden");
         currentText.setStyle("-fx-border-color: green; -fx-border-width: 2;");
+    }
+
+    @FXML
+    public void onOpenButtonClick(ActionEvent actionEvent) throws Exception {
+        CalculatorApplication.show(new Stage());
     }
 }

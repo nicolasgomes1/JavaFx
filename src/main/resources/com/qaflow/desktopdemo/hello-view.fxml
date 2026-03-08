@@ -18,10 +18,13 @@
     <HBox alignment="CENTER" spacing="10">
         <Button fx:id="hideButton" text="Hide" onAction="#onHelloButtonClickReset"/>
         <Button fx:id="showButton" text="Show" onAction="#onHelloButtonClick"/>
+        <Button text="Open" onAction="#onOpenButtonClick"/>
+
     </HBox>
 
     <HBox>
         <Label fx:id="currentText"/>
     </HBox>
+
 
 </VBox>
