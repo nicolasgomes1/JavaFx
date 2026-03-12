@@ -50,6 +50,6 @@ public class HelloController {
     }
 
     public void onOpenButtonFormClick(ActionEvent actionEvent) throws Exception {
-        System.out.printf("onOpenButtonFormClick");
+        ToDoApplication.show(new Stage());
     }
 }

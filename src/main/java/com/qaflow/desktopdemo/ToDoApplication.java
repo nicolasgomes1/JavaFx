@@ -9,8 +9,7 @@ import javafx.stage.Stage;
 
 public class ToDoApplication extends Application {
 
-    @Override
-    public void start(Stage stage) throws Exception {
+    public static void show(Stage stage) throws Exception {
         FXMLLoader fxmlLoader = new FXMLLoader(
                 ToDoApplication.class.getResource("todo-view.fxml")
         );
@@ -22,11 +21,13 @@ public class ToDoApplication extends Application {
     }
 
     @Override
+    public void start(Stage stage) throws Exception {
+        show(stage);
+    }
+
+    @Override
     public void stop() {
         HibernateUtil.shutdown();
     }
 
-    public static void main(String[] args) {
-        launch(args);
-    }
 }
