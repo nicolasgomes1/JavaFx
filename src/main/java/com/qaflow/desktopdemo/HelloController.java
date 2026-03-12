@@ -48,4 +48,8 @@ public class HelloController {
     public void onOpenButtonClick(ActionEvent actionEvent) throws Exception {
         CalculatorApplication.show(new Stage());
     }
+
+    public void onOpenButtonFormClick(ActionEvent actionEvent) throws Exception {
+        System.out.printf("onOpenButtonFormClick");
+    }
 }
