@@ -1,4 +1,4 @@
-﻿package com.qaflow.desktopdemo.repository;
+package com.qaflow.desktopdemo.repository;
 
 import com.qaflow.desktopdemo.config.HibernateUtil;
 import com.qaflow.desktopdemo.model.ToDo;

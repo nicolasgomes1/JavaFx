@@ -1,4 +1,4 @@
-﻿package com.qaflow.desktopdemo.config;
+package com.qaflow.desktopdemo.config;
 
 import com.qaflow.desktopdemo.model.ToDo;
 import org.hibernate.SessionFactory;

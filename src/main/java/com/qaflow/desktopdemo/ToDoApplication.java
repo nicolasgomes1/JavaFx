@@ -1,4 +1,6 @@
-﻿
+
+package com.qaflow.desktopdemo;
+
 import com.qaflow.desktopdemo.config.HibernateUtil;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

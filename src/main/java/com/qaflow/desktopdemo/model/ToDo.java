@@ -1,4 +1,4 @@
-﻿package com.qaflow.desktopdemo.model;
+package com.qaflow.desktopdemo.model;
 
 import jakarta.persistence.*;
 
